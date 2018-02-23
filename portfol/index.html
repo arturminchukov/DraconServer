@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>Фронт-енд разработчик</title>
+</head>
+<body>
+	<div class="header">
+		<div class="photo">
+			<img src="img/me2.jpg">
+		</div>
+		<div class="about-me">
+			<h2>Начинающий front-end разработчик</h2>
+			<h1>Артур Минчуков</h1>
+		</div>
+		<div class=info-me>
+				<p>Привет, я Артур. Я готов к новым знаниям и переменам. Ищу отличные возможности получить новые навыки и разивать уже имеющиеся. Решил заняться фронт-енд разработкой, так как думаю, что именно в этом направлении не приходится делать одни и те же вещи много раз, а приходится решать все новые и новые интересные задачи.</p>
+		</div>
+	</div>
+
+	<div class="content">
+		<h1>Ожидания от ШРИ</h1>
+		<div class="table-wrapper wrapper">
+				<input type="radio" name="table-slider" id="cell1" checked>
+				<input type="radio" name="table-slider" id="cell2">
+				<input type="radio" name="table-slider" id="cell3">
+				<input type="radio" name="table-slider" id="cell4">
+				<div class="slider-table">
+					<div class="row">
+						<div class="cell1">
+							<div class="cells">
+								<h2>Развитие</h2>
+								<p>Возможность получить новые навыки и знания, которые я смогу использовать в дальнейшем.</p>
+							</div>
+						</div>
+						<div class="cell2">
+							<div class="cells">
+								<h2>Знакомства</h2>
+								<p>Возможность познакомиться с новыми интересными личностями. Ведь знакомых никогда не бывает много.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+					<div class="cell3">
+						<div class="cells">
+							<h2>Атмосфера</h2>
+							<p>Возможность поработать в команде над собственным проектом, чтобы в итоге сделать что-то необыкновенное.</p>
+						</div>
+					</div>
+					<div class="cell4">
+						<div class="cells">
+							<h2>Трудоустройство</h2>
+							<p>Кого же не радует такой плюс, как трудоустройство. Так  и здесь, привлекает перспектива получить стажировку, и в дальнейшем трудоустройство в хорошей компании.</p>
+						</div>
+					</div>
+					</div>
+				</div>
+
+				<div class="controls">
+					<label for="cell1"></label>
+					<label for="cell2"></label>
+					<label for="cell3"></label>
+					<label for="cell4"></label>
+				</div>
+		</div>
+	</div>
+
+	<div class="content">
+		<h1>Мои работы</h1>
+		<div class="my-works">
+			<div class="wrapper">
+				<input type="radio" name="point" id="slide1-fm" checked>
+				<input type="radio" name="point" id="slide2-fm">
+				<input type="radio" name="point" id="slide3-fm">
+				<input type="radio" name="point" id="slide4-fm">
+				<div class="slider">
+					<div class="slides slide1-fm"></div>
+					<div class="slides slide2-fm"></div>
+					<div class="slides slide3-fm"></div>
+					<div class="slides slide4-fm"></div>
+				</div>
+
+				<div class="controls">
+					<label for="slide1-fm"></label>
+					<label for="slide2-fm"></label>
+					<label for="slide3-fm"></label>
+					<label for="slide4-fm"></label>
+				</div>
+			</div>
+			<div class="info-project">
+				<div>
+					<h2>Film Manager</h2>
+					<a href="https://github.com/arturminchukov/filmmanager">github/filmmanager</a>
+				</div>
+				<p>
+					Film Manager - это проект, который помогает облегчить работу по продажам киностудии. Клиенты могут сделать заказ фильма всего лишь в один клик. И менеджеры в ближайшее время обработают этот заказ.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="content">
+			<h1>Контактная информация</h1>
+			<div class="feedback">
+				<div class="contact-information">
+						<p>Я открыт для новых проектов. Присылайте ваши идеи,проекты или технические задания, или же просто вопросы, и мы с Вами всё обсудим.</p>
+						<p>Ссылки на мои соцсети:</p>
+						<ul>
+							<li>
+								<div class="square"></div>
+								<a href="https://www.facebook.com/profile.php?id=100008664250647">Facebook</a>
+							</li>
+							<li>
+								<div class="square"></div>
+								<a href="https://vk.com/artur_minchukov">ВКонтакте</a>
+							</li>
+							<li>
+								<div class="square"></div>
+								<a href="https://github.com/arturminchukov">GitHub</a>
+							</li>
+							<li>
+								<div class="square"></div>
+								<a href="#">Twitter</a>
+							</li>
+						</ul>
+				</div>
+				
+				<form class="form-feedback" action="">
+					<input type="text" name="name" placeholder="Имя" required>
+					<input type="text" name="email" placeholder="Почтовый ящик" required>
+					<textarea name="message" cols="90" rows="10" placeholder="Сообщение"></textarea>
+					<label><input class="file_upload" type="file" ><div class="rectangle"><div class="triangle-bottomleft"></div></div><b>Прикрепить ТЗ</b></label>
+					<button type="submit">Отправить</button>
+				</form>
+				
+			</div>
+		</div>
+	</div>
+</body>
+</html>
