@@ -19,4 +19,14 @@ public class Request {
     public void setRequestFile(String requestFile) {
         this.requestFile = requestFile;
     }
+
+    public String getExtenFile() {
+        if(requestFile.contains(".")) {
+            int pos = requestFile.indexOf(".");
+            String exten = requestFile.substring(pos+1);
+            return exten;
+        }
+        else
+            return "";
+    }
 }
